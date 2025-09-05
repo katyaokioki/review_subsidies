@@ -1,0 +1,913 @@
+2025-08-28 10:17:48.157 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 10:18:01.939 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 10:18:32.220 | INFO     | __main__:run:178 - нажали на кнопку
+2025-08-28 10:19:37.978 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 10:19:52.161 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 10:20:21.220 | INFO     | __main__:run:178 - нажали на кнопку
+2025-08-28 10:24:50.048 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 10:25:01.655 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 10:25:24.883 | INFO     | __main__:run:178 - нажали на кнопку
+2025-08-28 11:38:44.563 | INFO     | __main__:run:156 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 11:38:57.145 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 11:39:23.759 | INFO     | __main__:run:180 - нажали на кнопку
+2025-08-28 11:39:33.286 | INFO     | __main__:run:194 - не нажимается на кнопку: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.127); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55d0d0e4a08a <unknown>
+#1 0x55d0d08e9a70 <unknown>
+#2 0x55d0d08d07fe <unknown>
+#3 0x55d0d08f85c9 <unknown>
+#4 0x55d0d096987f <unknown>
+#5 0x55d0d0986afc <unknown>
+#6 0x55d0d09611b3 <unknown>
+#7 0x55d0d092d59b <unknown>
+#8 0x55d0d092e971 <unknown>
+#9 0x55d0d0e0f25b <unknown>
+#10 0x55d0d0e12fa9 <unknown>
+#11 0x55d0d0df6339 <unknown>
+#12 0x55d0d0e13b58 <unknown>
+#13 0x55d0d0ddac1f <unknown>
+#14 0x55d0d0e37118 <unknown>
+#15 0x55d0d0e372f6 <unknown>
+#16 0x55d0d0e49066 <unknown>
+#17 0x7f3ee63c6724 start_thread
+#18 0x7f3ee644a80c __clone3
+
+2025-08-28 11:46:31.658 | INFO     | __main__:run:156 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 11:46:46.128 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 11:47:07.785 | INFO     | __main__:run:180 - нажали на кнопку
+2025-08-28 11:47:25.153 | INFO     | __main__:run:197 - не нажимается на кнопку: Message: 
+Stacktrace:
+#0 0x56000b09e08a <unknown>
+#1 0x56000ab3da70 <unknown>
+#2 0x56000ab8f907 <unknown>
+#3 0x56000ab8fb01 <unknown>
+#4 0x56000abddd54 <unknown>
+#5 0x56000abb540d <unknown>
+#6 0x56000abdb14f <unknown>
+#7 0x56000abb51b3 <unknown>
+#8 0x56000ab8159b <unknown>
+#9 0x56000ab82971 <unknown>
+#10 0x56000b06325b <unknown>
+#11 0x56000b066fa9 <unknown>
+#12 0x56000b04a339 <unknown>
+#13 0x56000b067b58 <unknown>
+#14 0x56000b02ec1f <unknown>
+#15 0x56000b08b118 <unknown>
+#16 0x56000b08b2f6 <unknown>
+#17 0x56000b09d066 <unknown>
+#18 0x7fa540442724 start_thread
+#19 0x7fa5404c680c __clone3
+
+2025-08-28 11:49:42.863 | INFO     | __main__:run:156 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 11:50:04.093 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 11:50:30.903 | INFO     | __main__:run:180 - нажали на кнопку
+2025-08-28 11:50:48.507 | INFO     | __main__:run:195 - не нажимается на кнопку: Message: 
+Stacktrace:
+#0 0x561776a7f08a <unknown>
+#1 0x56177651ea70 <unknown>
+#2 0x561776570907 <unknown>
+#3 0x561776570b01 <unknown>
+#4 0x5617765bed54 <unknown>
+#5 0x56177659640d <unknown>
+#6 0x5617765bc14f <unknown>
+#7 0x5617765961b3 <unknown>
+#8 0x56177656259b <unknown>
+#9 0x561776563971 <unknown>
+#10 0x561776a4425b <unknown>
+#11 0x561776a47fa9 <unknown>
+#12 0x561776a2b339 <unknown>
+#13 0x561776a48b58 <unknown>
+#14 0x561776a0fc1f <unknown>
+#15 0x561776a6c118 <unknown>
+#16 0x561776a6c2f6 <unknown>
+#17 0x561776a7e066 <unknown>
+#18 0x7ff29f069724 start_thread
+#19 0x7ff29f0ed80c __clone3
+
+2025-08-28 11:55:05.262 | INFO     | __main__:run:156 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 11:55:18.925 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 11:55:44.496 | INFO     | __main__:run:180 - нажали на кнопку
+2025-08-28 11:56:03.187 | INFO     | __main__:run:195 - не нажимается на кнопку: Message: 
+Stacktrace:
+#0 0x55638c3f508a <unknown>
+#1 0x55638be94a70 <unknown>
+#2 0x55638bee6907 <unknown>
+#3 0x55638bee6b01 <unknown>
+#4 0x55638bf34d54 <unknown>
+#5 0x55638bf0c40d <unknown>
+#6 0x55638bf3214f <unknown>
+#7 0x55638bf0c1b3 <unknown>
+#8 0x55638bed859b <unknown>
+#9 0x55638bed9971 <unknown>
+#10 0x55638c3ba25b <unknown>
+#11 0x55638c3bdfa9 <unknown>
+#12 0x55638c3a1339 <unknown>
+#13 0x55638c3beb58 <unknown>
+#14 0x55638c385c1f <unknown>
+#15 0x55638c3e2118 <unknown>
+#16 0x55638c3e22f6 <unknown>
+#17 0x55638c3f4066 <unknown>
+#18 0x7eff5686a724 start_thread
+#19 0x7eff568ee80c __clone3
+
+2025-08-28 12:06:24.393 | INFO     | __main__:run:156 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 12:06:39.236 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 12:07:04.912 | INFO     | __main__:run:180 - нажали на кнопку
+2025-08-28 12:07:14.167 | INFO     | __main__:run:195 - не нажимается на кнопку: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.127); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+#0 0x55c3515b908a <unknown>
+#1 0x55c351058a70 <unknown>
+#2 0x55c35103f7fe <unknown>
+#3 0x55c3510675c9 <unknown>
+#4 0x55c3510d887f <unknown>
+#5 0x55c3510f5afc <unknown>
+#6 0x55c3510d01b3 <unknown>
+#7 0x55c35109c59b <unknown>
+#8 0x55c35109d971 <unknown>
+#9 0x55c35157e25b <unknown>
+#10 0x55c351581fa9 <unknown>
+#11 0x55c351565339 <unknown>
+#12 0x55c351582b58 <unknown>
+#13 0x55c351549c1f <unknown>
+#14 0x55c3515a6118 <unknown>
+#15 0x55c3515a62f6 <unknown>
+#16 0x55c3515b8066 <unknown>
+#17 0x7efc47b36724 start_thread
+#18 0x7efc47bba80c __clone3
+
+2025-08-28 12:19:54.645 | INFO     | __main__:run:156 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 12:20:06.039 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 12:20:29.135 | INFO     | __main__:run:180 - нажали на кнопку
+2025-08-28 12:20:48.186 | INFO     | __main__:run:197 - не нажимается на кнопку: Message: 
+Stacktrace:
+#0 0x5636c757108a <unknown>
+#1 0x5636c7010a70 <unknown>
+#2 0x5636c7062907 <unknown>
+#3 0x5636c7062b01 <unknown>
+#4 0x5636c70b0d54 <unknown>
+#5 0x5636c708840d <unknown>
+#6 0x5636c70ae14f <unknown>
+#7 0x5636c70881b3 <unknown>
+#8 0x5636c705459b <unknown>
+#9 0x5636c7055971 <unknown>
+#10 0x5636c753625b <unknown>
+#11 0x5636c7539fa9 <unknown>
+#12 0x5636c751d339 <unknown>
+#13 0x5636c753ab58 <unknown>
+#14 0x5636c7501c1f <unknown>
+#15 0x5636c755e118 <unknown>
+#16 0x5636c755e2f6 <unknown>
+#17 0x5636c7570066 <unknown>
+#18 0x7fbccebcf724 start_thread
+#19 0x7fbccec5380c __clone3
+
+2025-08-28 12:29:24.112 | INFO     | __main__:run:156 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 12:29:35.620 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 12:32:52.175 | INFO     | __main__:run:156 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-28 12:33:05.931 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-28 12:33:29.202 | INFO     | __main__:run:180 - нажали на кнопку
+2025-08-28 12:33:47.761 | INFO     | __main__:run:197 - не нажимается на кнопку: Message: 
+Stacktrace:
+#0 0x5612320a508a <unknown>
+#1 0x561231b44a70 <unknown>
+#2 0x561231b96907 <unknown>
+#3 0x561231b96b01 <unknown>
+#4 0x561231be4d54 <unknown>
+#5 0x561231bbc40d <unknown>
+#6 0x561231be214f <unknown>
+#7 0x561231bbc1b3 <unknown>
+#8 0x561231b8859b <unknown>
+#9 0x561231b89971 <unknown>
+#10 0x56123206a25b <unknown>
+#11 0x56123206dfa9 <unknown>
+#12 0x561232051339 <unknown>
+#13 0x56123206eb58 <unknown>
+#14 0x561232035c1f <unknown>
+#15 0x561232092118 <unknown>
+#16 0x5612320922f6 <unknown>
+#17 0x5612320a4066 <unknown>
+#18 0x7fd8bfeb3724 start_thread
+#19 0x7fd8bff3780c __clone3
+
+2025-08-28 15:29:22.137 | INFO     | __main__:run_single_code:226 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:29:22.439 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:29:35.970 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:29:36.380 | INFO     | __main__:run_single_code:245 - https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0
+2025-08-28 15:30:01.425 | ERROR    | __main__:click_element:76 - Клик через JS тоже не удался: div.competition-head-more.ng-tns-c2067363559-1
+2025-08-28 15:30:12.925 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 15:30:25.952 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:30:37.963 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:30:49.093 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:30:53.783 | INFO     | __main__:run_single_code:226 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:30:53.783 | INFO     | __main__:run_single_code:226 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:31:03.785 | INFO     | __main__:insert:57 - Ошибка вставки в серч шифра 25-010-R014В-2-0366
+2025-08-28 15:31:03.785 | INFO     | __main__:insert:57 - Ошибка вставки в серч шифра 25-010-R014В-2-0366
+2025-08-28 15:38:30.619 | INFO     | __main__:run_single_code:226 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:38:30.876 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:38:48.887 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:38:49.028 | INFO     | __main__:run_single_code:245 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-28 15:38:59.401 | INFO     | __main__:run_single_code:252 - Подробнее кликнули
+2025-08-28 15:39:00.762 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 15:39:13.964 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:39:26.019 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:39:37.654 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:39:51.524 | INFO     | __main__:run_single_code:226 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:39:51.524 | INFO     | __main__:run_single_code:226 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:39:51.746 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:39:51.746 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:40:07.661 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:40:07.661 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:40:07.850 | INFO     | __main__:run_single_code:245 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 15:40:07.850 | INFO     | __main__:run_single_code:245 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 15:40:22.265 | INFO     | __main__:run_single_code:252 - Подробнее кликнули
+2025-08-28 15:40:22.265 | INFO     | __main__:run_single_code:252 - Подробнее кликнули
+2025-08-28 15:40:24.316 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 15:40:24.316 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 15:42:39.514 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:42:39.793 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:42:55.270 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:42:55.462 | INFO     | __main__:run:178 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 15:43:07.139 | INFO     | __main__:run:185 - Подробнее кликнули
+2025-08-28 15:43:09.145 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 15:43:23.809 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:43:35.597 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:43:56.389 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:43:56.406 | INFO     | __main__:insert:57 - Ошибка вставки в серч шифра 25-290-61260-2-0063
+2025-08-28 15:44:19.848 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:44:19.856 | INFO     | __main__:insert:57 - Ошибка вставки в серч шифра 25-290-61260-2-0063
+2025-08-28 15:46:04.712 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:46:04.721 | INFO     | __main__:insert:57 - Ошибка вставки в серч шифра 25-290-61260-2-0063
+2025-08-28 15:48:16.965 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:48:17.346 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:48:35.417 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:48:35.580 | INFO     | __main__:run:178 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 15:48:49.210 | INFO     | __main__:run:185 - Подробнее кликнули
+2025-08-28 15:48:50.371 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 15:51:30.007 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:51:36.379 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:51:53.056 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:51:53.214 | INFO     | __main__:run:178 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 15:52:07.209 | INFO     | __main__:run:185 - Подробнее кликнули
+2025-08-28 15:52:13.289 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 15:54:30.355 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:54:30.659 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:54:48.725 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:54:49.369 | INFO     | __main__:run:178 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 15:55:14.094 | ERROR    | __main__:click_element:76 - Клик через JS тоже не удался: div.competition-head-more.ng-tns-c2067363559-1
+2025-08-28 15:55:42.436 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:55:42.728 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:55:57.297 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:55:57.460 | INFO     | __main__:run:178 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 15:56:09.382 | INFO     | __main__:run:185 - Подробнее кликнули
+2025-08-28 15:56:18.019 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 15:56:32.762 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:56:43.940 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 15:59:29.865 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 15:59:30.178 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 15:59:44.242 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 15:59:44.403 | INFO     | __main__:run:178 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 15:59:58.916 | INFO     | __main__:run:185 - Подробнее кликнули
+2025-08-28 16:00:04.735 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 16:00:17.869 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 16:00:30.355 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 16:00:42.734 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 16:00:50.153 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:00:50.153 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:00:50.166 | INFO     | __main__:insert:57 - Ошибка вставки в серч шифра 25-012-06320-2-0025
+2025-08-28 16:00:50.166 | INFO     | __main__:insert:57 - Ошибка вставки в серч шифра 25-012-06320-2-0025
+2025-08-28 16:02:29.396 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:02:29.745 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:02:45.929 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:02:46.114 | INFO     | __main__:run:178 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:02:59.394 | INFO     | __main__:run:185 - Подробнее кликнули
+2025-08-28 16:03:04.720 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 16:04:45.494 | INFO     | __main__:run:159 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:04:45.774 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:05:03.397 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:05:03.551 | INFO     | __main__:run:178 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:05:17.014 | INFO     | __main__:run:185 - Подробнее кликнули
+2025-08-28 16:05:23.818 | ERROR    | __main__:get_treb:102 - не нажимается на объявления и протоколы
+2025-08-28 16:05:38.148 | ERROR    | __main__:download_doc:115 - не перешли на ссылку документв
+2025-08-28 16:08:54.004 | INFO     | __main__:run:173 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:09:00.219 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:09:14.975 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:09:15.105 | INFO     | __main__:run:192 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:09:29.759 | INFO     | __main__:run:199 - Подробнее кликнули
+2025-08-28 16:13:01.786 | INFO     | __main__:run:151 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:13:02.058 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:13:14.866 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:13:15.062 | INFO     | __main__:run:170 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:13:25.860 | INFO     | __main__:run:177 - Подробнее кликнули
+2025-08-28 16:18:22.907 | INFO     | __main__:run:151 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:18:23.205 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:18:40.913 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:18:41.073 | INFO     | __main__:run:170 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:18:52.020 | INFO     | __main__:run:177 - Подробнее кликнули
+2025-08-28 16:19:11.128 | ERROR    | __main__:download_doc:107 - не перешли на ссылку документв
+2025-08-28 16:19:22.888 | ERROR    | __main__:download_doc:107 - не перешли на ссылку документв
+2025-08-28 16:22:31.363 | INFO     | __main__:run:151 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:22:31.661 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:22:48.875 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:22:49.047 | INFO     | __main__:run:170 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:22:59.839 | INFO     | __main__:run:177 - Подробнее кликнули
+2025-08-28 16:23:20.855 | ERROR    | __main__:download_doc:107 - не перешли на ссылку документв
+2025-08-28 16:24:31.600 | INFO     | __main__:run:155 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:24:37.319 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:24:56.254 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:24:56.400 | INFO     | __main__:run:174 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:25:10.483 | INFO     | __main__:run:181 - Подробнее кликнули
+2025-08-28 16:25:16.548 | INFO     | __main__:run:188 - нажали на документы
+2025-08-28 16:25:34.280 | ERROR    | __main__:download_doc:111 - не перешли на ссылку документв
+2025-08-28 16:25:47.436 | INFO     | __main__:run:155 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:25:47.721 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:26:02.909 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:26:03.109 | INFO     | __main__:run:174 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:26:16.834 | INFO     | __main__:run:181 - Подробнее кликнули
+2025-08-28 16:26:23.386 | ERROR    | __main__:get_treb:97 - не нажимается на объявления и протоколы
+2025-08-28 16:27:38.703 | INFO     | __main__:run:155 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:27:38.911 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:27:58.296 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:27:58.417 | INFO     | __main__:run:174 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:28:09.421 | INFO     | __main__:run:181 - Подробнее кликнули
+2025-08-28 16:28:15.127 | ERROR    | __main__:get_treb:97 - не нажимается на объявления и протоколы
+2025-08-28 16:28:29.099 | ERROR    | __main__:download_doc:111 - не перешли на ссылку документв
+2025-08-28 16:30:11.601 | INFO     | __main__:run:155 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:30:11.885 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:30:25.895 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:30:26.034 | INFO     | __main__:run:174 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 16:30:39.508 | INFO     | __main__:run:181 - Подробнее кликнули
+2025-08-28 16:30:45.689 | ERROR    | __main__:get_treb:97 - не нажимается на объявления и протоколы
+2025-08-28 16:30:59.639 | ERROR    | __main__:download_doc:111 - не перешли на ссылку документв
+2025-08-28 16:31:11.426 | ERROR    | __main__:download_doc:111 - не перешли на ссылку документв
+2025-08-28 16:31:23.318 | ERROR    | __main__:download_doc:111 - не перешли на ссылку документв
+2025-08-28 16:31:33.508 | INFO     | __main__:run:155 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:31:33.508 | INFO     | __main__:run:155 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:31:33.722 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:31:33.722 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:35:27.498 | INFO     | __main__:run:164 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:35:27.790 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:35:40.953 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:35:41.082 | INFO     | __main__:run:183 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 16:35:51.568 | INFO     | __main__:run:190 - Подробнее кликнули
+2025-08-28 16:35:56.915 | ERROR    | __main__:get_treb:106 - не нажимается на объявления и протоколы
+2025-08-28 16:36:09.441 | ERROR    | __main__:download_doc:120 - не перешли на ссылку документв
+2025-08-28 16:37:25.207 | INFO     | __main__:run:165 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:37:25.419 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:37:42.683 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:37:42.802 | INFO     | __main__:run:184 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 16:37:58.075 | INFO     | __main__:run:191 - Подробнее кликнули
+2025-08-28 16:40:18.515 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:40:18.731 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:40:36.212 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:40:36.330 | INFO     | __main__:run:187 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 16:40:47.754 | INFO     | __main__:run:194 - Подробнее кликнули
+2025-08-28 16:40:53.486 | ERROR    | __main__:get_treb:110 - не нажимается на объявления и протоколы
+2025-08-28 16:41:05.726 | ERROR    | __main__:download_doc:124 - не перешли на ссылку документв
+2025-08-28 16:41:17.494 | ERROR    | __main__:download_doc:124 - не перешли на ссылку документв
+2025-08-28 16:41:29.063 | ERROR    | __main__:download_doc:124 - не перешли на ссылку документв
+2025-08-28 16:41:36.421 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:41:36.421 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:41:36.692 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:41:36.692 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:42:13.888 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:42:14.073 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:42:31.568 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:42:31.790 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:42:47.270 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:42:47.393 | INFO     | __main__:run:187 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 16:43:00.267 | INFO     | __main__:run:194 - Подробнее кликнули
+2025-08-28 16:43:26.796 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:43:32.077 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:43:49.335 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:43:49.456 | INFO     | __main__:run:187 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 16:44:02.719 | INFO     | __main__:run:194 - Подробнее кликнули
+2025-08-28 16:44:22.803 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:44:23.015 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:44:38.337 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:44:38.480 | INFO     | __main__:run:187 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 16:44:51.783 | ERROR    | __main__:click_element:76 - Клик через JS тоже не удался: div.competition-head-more.ng-tns-c2067363559-1
+2025-08-28 16:45:21.743 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:45:21.946 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:45:38.584 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 16:45:38.702 | INFO     | __main__:run:187 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 16:45:51.153 | INFO     | __main__:run:194 - Подробнее кликнули
+2025-08-28 16:45:58.322 | INFO     | __main__:run:201 - нажали на документы
+2025-08-28 16:46:05.500 | INFO     | __main__:downl:134 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 16:46:05.507 | INFO     | __main__:move_all_pdfs:150 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 16:46:11.196 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:46:11.196 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 16:46:11.388 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 16:46:11.388 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:00:53.047 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:00:53.322 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:01:09.028 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:01:09.287 | INFO     | __main__:run:187 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:01:21.269 | INFO     | __main__:run:194 - Подробнее кликнули
+2025-08-28 17:01:28.738 | INFO     | __main__:run:201 - нажали на документы
+2025-08-28 17:01:43.250 | ERROR    | __main__:download_doc:124 - не перешли на ссылку документв
+2025-08-28 17:01:54.844 | ERROR    | __main__:download_doc:124 - не перешли на ссылку документв
+2025-08-28 17:02:06.320 | ERROR    | __main__:download_doc:124 - не перешли на ссылку документв
+2025-08-28 17:02:17.568 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:02:17.568 | INFO     | __main__:run:168 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:02:18.206 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:02:18.206 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:02:33.001 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:02:33.001 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:02:33.265 | INFO     | __main__:run:187 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:02:33.265 | INFO     | __main__:run:187 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:02:43.930 | INFO     | __main__:run:194 - Подробнее кликнули
+2025-08-28 17:02:43.930 | INFO     | __main__:run:194 - Подробнее кликнули
+2025-08-28 17:02:51.315 | INFO     | __main__:run:201 - нажали на документы
+2025-08-28 17:02:51.315 | INFO     | __main__:run:201 - нажали на документы
+2025-08-28 17:03:06.670 | ERROR    | __main__:download_doc:124 - не перешли на ссылку документв
+2025-08-28 17:03:06.670 | ERROR    | __main__:download_doc:124 - не перешли на ссылку документв
+2025-08-28 17:07:24.273 | INFO     | __main__:run:171 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:07:25.531 | INFO     | __main__:insert:57 - Ошибка вставки в серч шифра 25-010-52920-2-0345
+2025-08-28 17:07:42.420 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:07:42.742 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:07:59.735 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:08:00.004 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:08:14.175 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:08:20.282 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:08:29.064 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-010-52920-2-0345
+2025-08-28 17:08:29.069 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-010-52920-2-0345 -> 25-010-52920-2-0345.pdf
+2025-08-28 17:08:36.477 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:08:36.477 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:08:36.842 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:08:36.842 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:08:52.095 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:08:52.095 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:08:52.376 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/1ad2656e-a72e-4b28-bce3-86a9b0cc4f52?showBackButton=true&competitionType=0
+2025-08-28 17:08:52.376 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/1ad2656e-a72e-4b28-bce3-86a9b0cc4f52?showBackButton=true&competitionType=0
+2025-08-28 17:09:04.690 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:09:04.690 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:09:11.676 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:09:11.676 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:09:20.047 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-902-60917-2-0645
+2025-08-28 17:09:20.047 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-902-60917-2-0645
+2025-08-28 17:09:20.052 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-902-60917-2-0645 -> 25-902-60917-2-0645.pdf
+2025-08-28 17:09:20.052 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-902-60917-2-0645 -> 25-902-60917-2-0645.pdf
+2025-08-28 17:09:27.696 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:09:27.696 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:09:27.696 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:09:28.271 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:09:28.271 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:09:28.271 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:09:43.071 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:09:43.071 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:09:43.071 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:09:43.424 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/fd913114-593d-41ad-9549-34508802bef6?showBackButton=true&competitionType=0
+2025-08-28 17:09:43.424 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/fd913114-593d-41ad-9549-34508802bef6?showBackButton=true&competitionType=0
+2025-08-28 17:09:43.424 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/fd913114-593d-41ad-9549-34508802bef6?showBackButton=true&competitionType=0
+2025-08-28 17:09:54.453 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:09:54.453 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:09:54.453 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:10:00.531 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:10:00.531 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:10:00.531 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:10:08.462 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-004-15270-2-0075
+2025-08-28 17:10:08.462 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-004-15270-2-0075
+2025-08-28 17:10:08.462 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-004-15270-2-0075
+2025-08-28 17:10:08.466 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-004-15270-2-0075 -> 25-004-15270-2-0075.pdf
+2025-08-28 17:10:08.466 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-004-15270-2-0075 -> 25-004-15270-2-0075.pdf
+2025-08-28 17:10:08.466 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-004-15270-2-0075 -> 25-004-15270-2-0075.pdf
+2025-08-28 17:10:16.682 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:10:16.682 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:10:16.682 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:10:16.682 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:10:16.978 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:10:16.978 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:10:16.978 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:10:16.978 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:10:34.241 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:10:34.241 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:10:34.241 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:10:34.241 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:10:34.481 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0
+2025-08-28 17:10:34.481 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0
+2025-08-28 17:10:34.481 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0
+2025-08-28 17:10:34.481 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0
+2025-08-28 17:10:49.944 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:10:49.944 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:10:49.944 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:10:49.944 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:10:56.299 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:10:56.299 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:10:56.299 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:10:56.299 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:11:05.543 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-013-00006-2-0183
+2025-08-28 17:11:05.543 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-013-00006-2-0183
+2025-08-28 17:11:05.543 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-013-00006-2-0183
+2025-08-28 17:11:05.543 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-013-00006-2-0183
+2025-08-28 17:11:05.548 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-013-00006-2-0183 -> 25-013-00006-2-0183.pdf
+2025-08-28 17:11:05.548 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-013-00006-2-0183 -> 25-013-00006-2-0183.pdf
+2025-08-28 17:11:05.548 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-013-00006-2-0183 -> 25-013-00006-2-0183.pdf
+2025-08-28 17:11:05.548 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-013-00006-2-0183 -> 25-013-00006-2-0183.pdf
+2025-08-28 17:11:12.886 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:12.886 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:12.886 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:12.886 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:12.886 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:13.214 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:11:13.214 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:11:13.214 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:11:13.214 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:11:13.214 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:11:29.711 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:11:29.711 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:11:29.711 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:11:29.711 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:11:29.711 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:11:29.947 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-28 17:11:29.947 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-28 17:11:29.947 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-28 17:11:29.947 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-28 17:11:29.947 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-28 17:11:42.176 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:11:42.176 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:11:42.176 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:11:42.176 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:11:42.176 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:11:48.286 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:11:48.286 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:11:48.286 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:11:48.286 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:11:48.286 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:11:55.958 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-010-R014В-2-0366
+2025-08-28 17:11:55.958 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-010-R014В-2-0366
+2025-08-28 17:11:55.958 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-010-R014В-2-0366
+2025-08-28 17:11:55.958 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-010-R014В-2-0366
+2025-08-28 17:11:55.958 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-010-R014В-2-0366
+2025-08-28 17:11:55.963 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-010-R014В-2-0366 -> 25-010-R014В-2-0366.pdf
+2025-08-28 17:11:55.963 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-010-R014В-2-0366 -> 25-010-R014В-2-0366.pdf
+2025-08-28 17:11:55.963 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-010-R014В-2-0366 -> 25-010-R014В-2-0366.pdf
+2025-08-28 17:11:55.963 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-010-R014В-2-0366 -> 25-010-R014В-2-0366.pdf
+2025-08-28 17:11:55.963 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-010-R014В-2-0366 -> 25-010-R014В-2-0366.pdf
+2025-08-28 17:11:59.744 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:59.744 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:59.744 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:59.744 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:59.744 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:11:59.744 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:12:05.331 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:05.331 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:05.331 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:05.331 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:05.331 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:05.331 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:21.668 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:12:21.668 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:12:21.668 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:12:21.668 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:12:21.668 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:12:21.668 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:12:22.019 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 17:12:22.019 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 17:12:22.019 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 17:12:22.019 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 17:12:22.019 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 17:12:22.019 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-28 17:12:32.618 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:12:32.618 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:12:32.618 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:12:32.618 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:12:32.618 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:12:32.618 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:12:40.487 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:12:40.487 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:12:40.487 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:12:40.487 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:12:40.487 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:12:40.487 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:12:50.884 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-28 17:12:50.884 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-28 17:12:50.884 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-28 17:12:50.884 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-28 17:12:50.884 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-28 17:12:50.884 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-28 17:12:50.889 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-28 17:12:50.889 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-28 17:12:50.889 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-28 17:12:50.889 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-28 17:12:50.889 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-28 17:12:50.889 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-28 17:12:54.220 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:12:54.220 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:12:54.220 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:12:54.220 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:12:54.220 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:12:54.220 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:12:54.220 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:12:58.264 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:58.264 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:58.264 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:58.264 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:58.264 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:58.264 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:12:58.264 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:13:15.782 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:13:15.782 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:13:15.782 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:13:15.782 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:13:15.782 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:13:15.782 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:13:15.782 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:13:16.030 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 17:13:16.030 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 17:13:16.030 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 17:13:16.030 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 17:13:16.030 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 17:13:16.030 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 17:13:16.030 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-28 17:13:29.197 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:13:29.197 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:13:29.197 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:13:29.197 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:13:29.197 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:13:29.197 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:13:29.197 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:13:35.292 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:13:35.292 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:13:35.292 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:13:35.292 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:13:35.292 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:13:35.292 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:13:35.292 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:13:44.494 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-28 17:13:44.494 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-28 17:13:44.494 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-28 17:13:44.494 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-28 17:13:44.494 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-28 17:13:44.494 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-28 17:13:44.494 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-28 17:13:44.499 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-28 17:13:44.499 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-28 17:13:44.499 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-28 17:13:44.499 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-28 17:13:44.499 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-28 17:13:44.499 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-28 17:13:44.499 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-28 17:13:53.635 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:13:53.635 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:13:53.635 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:13:53.635 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:13:53.635 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:13:53.635 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:13:53.635 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:13:53.635 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:13:53.910 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:13:53.910 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:13:53.910 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:13:53.910 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:13:53.910 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:13:53.910 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:13:53.910 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:13:53.910 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:12.313 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:14:12.313 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:14:12.313 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:14:12.313 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:14:12.313 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:14:12.313 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:14:12.313 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:14:12.313 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:14:12.586 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 17:14:12.586 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 17:14:12.586 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 17:14:12.586 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 17:14:12.586 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 17:14:12.586 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 17:14:12.586 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 17:14:12.586 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-28 17:14:25.829 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:14:25.829 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:14:25.829 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:14:25.829 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:14:25.829 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:14:25.829 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:14:25.829 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:14:25.829 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:14:32.227 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:14:32.227 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:14:32.227 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:14:32.227 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:14:32.227 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:14:32.227 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:14:32.227 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:14:32.227 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:14:39.698 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-28 17:14:39.698 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-28 17:14:39.698 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-28 17:14:39.698 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-28 17:14:39.698 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-28 17:14:39.698 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-28 17:14:39.698 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-28 17:14:39.698 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-28 17:14:39.703 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-28 17:14:39.703 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-28 17:14:39.703 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-28 17:14:39.703 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-28 17:14:39.703 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-28 17:14:39.703 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-28 17:14:39.703 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-28 17:14:39.703 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.365 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:14:47.803 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:02.810 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:03.080 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:16.743 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:24.377 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.715 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:32.719 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.510 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:39.832 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:15:59.863 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:00.074 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:12.044 | INFO     | __main__:run:196 - Подробнее кликнули
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:18.369 | INFO     | __main__:run:203 - нажали на документы
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.278 | INFO     | __main__:downl:136 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:26.284 | INFO     | __main__:move_all_pdfs:152 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:32.917 | INFO     | __main__:run:170 - открыли https://promote.budget.gov.ru/
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:33.216 | INFO     | __main__:insert:54 - шифр вставили
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.591 | INFO     | __main__:get_href:83 - ссылка успешно получена
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-28 17:16:49.806 | INFO     | __main__:run:189 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0

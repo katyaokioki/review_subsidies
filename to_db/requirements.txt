@@ -1,0 +1,8 @@
+SQLAlchemy
+psycopg2-binary
+pandas
+openpyxl
+sqlalchemy
+pika
+dataclasses
+typing

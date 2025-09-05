@@ -1,0 +1,126 @@
+version: '3.8'
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    networks:
+      - backend
+
+  chrome:
+    image: selenium/standalone-chrome
+    container_name: selenium-chrome
+    ports:
+      - 4444:4444
+      - 5900:5900  # VNC, если нужно
+    shm_size: 2g
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4444/wd/hub/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    networks:
+      - backend
+
+  bot:
+    build:
+      context: .
+      dockerfile: bot/Dockerfile.bot
+    container_name: telegram-bot
+    environment:
+      - PYTHONUNBUFFERED=1
+      - SELENIUM_URL=http://chrome:4444/wd/hub    # пример переменной окружения для доступа к браузеру
+      - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672/
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      chrome:
+        condition: service_healthy
+      
+    volumes:
+      - ./downloads:/app/downloads
+    networks:
+      - backend
+    restart: unless-stopped
+
+  reading_excel:
+    build:
+      context: .
+      dockerfile: reading_excel/Dockerfile.reading_excel
+    container_name: reading_excel
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    volumes:
+      - ./downloads:/app/downloads
+    networks:
+      - backend
+    restart: unless-stopped
+
+  downloader:
+    build:
+      context: ./download
+      dockerfile: Dockerfile.download
+    container_name: downloader
+    environment:
+      - SELENIUM_URL=http://selenium-chrome:4444/wd/hub
+      - RABBITMQ_URL=amqp://guest:guest@rabbitmq-container:5672/
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      chrome:
+        condition: service_healthy
+    networks:
+      - backend
+    restart: unless-stopped
+
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "1234"
+      POSTGRES_DB: subsidies
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d subsidies"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    networks:
+      - backend
+    # volumes:
+    #   - pgdata:/var/lib/postgresql/data
+
+  to_db:
+    build:
+      context: .
+      dockerfile: to_db/Dockerfile.to_db
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg2://postgres:1234@db:5432/subsidies
+    volumes:
+      - ./downloads:/app/downloads
+    networks:
+      - backend
+    restart: "no"
+
+networks:
+  backend:
+
+volumes:
+  pgdata:

@@ -1,0 +1,290 @@
+2025-08-25 17:07:56.593 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:07:57.119 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:08:15.414 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:08:15.879 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0
+2025-08-25 17:08:29.055 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:08:30.953 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:08:30.954 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:08:38.112 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-013-00006-2-0183
+2025-08-25 17:08:38.114 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-013-00006-2-0183 -> 25-013-00006-2-0183.pdf
+2025-08-25 17:08:44.109 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:08:44.429 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:08:59.980 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:09:00.246 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-25 17:09:14.220 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:09:16.130 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:09:16.131 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:09:23.833 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-010-R014В-2-0366
+2025-08-25 17:09:23.835 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-010-R014В-2-0366 -> 25-010-R014В-2-0366.pdf
+2025-08-25 17:09:33.068 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:09:33.627 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:09:50.990 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:09:51.201 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-25 17:10:03.197 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:10:05.121 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:10:05.121 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:10:12.524 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-25 17:10:12.526 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-25 17:10:20.353 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:10:20.639 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:10:34.231 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:10:34.501 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-25 17:10:45.997 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:10:47.749 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:10:47.750 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:10:54.832 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-25 17:10:54.834 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-25 17:11:02.880 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:11:03.136 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:11:18.283 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:11:18.681 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-25 17:11:30.264 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:11:32.160 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:11:32.161 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:11:43.156 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-25 17:11:43.157 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-25 17:11:50.373 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:11:50.624 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:12:06.211 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:12:06.487 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-25 17:12:17.128 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:12:18.498 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:12:18.499 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:12:27.787 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-25 17:12:27.788 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-25 17:12:35.811 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:12:36.077 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:12:50.499 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:12:50.799 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-25 17:13:01.928 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:13:04.052 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:13:04.052 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:13:11.986 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-25 17:13:11.988 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-25 17:13:20.307 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:13:20.592 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:13:38.583 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:13:38.811 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-25 17:13:53.701 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:13:55.228 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:13:55.228 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:14:05.176 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-010-52920-2-0345
+2025-08-25 17:14:05.178 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-010-52920-2-0345 -> 25-010-52920-2-0345.pdf
+2025-08-25 17:14:14.423 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:14:14.835 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:14:31.152 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:14:31.411 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/1ad2656e-a72e-4b28-bce3-86a9b0cc4f52?showBackButton=true&competitionType=0
+2025-08-25 17:14:42.758 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:14:44.975 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:14:44.976 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:14:54.255 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-902-60917-2-0645
+2025-08-25 17:14:54.257 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-902-60917-2-0645 -> 25-902-60917-2-0645.pdf
+2025-08-25 17:15:00.636 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:15:01.062 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:15:18.404 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:15:18.566 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/fd913114-593d-41ad-9549-34508802bef6?showBackButton=true&competitionType=0
+2025-08-25 17:15:33.429 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:15:35.401 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:15:35.401 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:15:43.316 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-004-15270-2-0075
+2025-08-25 17:15:43.317 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-004-15270-2-0075 -> 25-004-15270-2-0075.pdf
+2025-08-25 17:15:48.609 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:15:48.609 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:15:54.159 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:15:54.159 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:16:10.770 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:16:10.770 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:16:11.011 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0
+2025-08-25 17:16:11.011 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0
+2025-08-25 17:16:22.947 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:16:22.947 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:16:24.819 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:16:24.819 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:16:24.820 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:16:24.820 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:16:34.523 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-013-00006-2-0183
+2025-08-25 17:16:34.523 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-013-00006-2-0183
+2025-08-25 17:16:34.525 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-013-00006-2-0183 -> 25-013-00006-2-0183.pdf
+2025-08-25 17:16:34.525 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-013-00006-2-0183 -> 25-013-00006-2-0183.pdf
+2025-08-25 17:16:41.611 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:16:41.611 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:16:41.982 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:16:41.982 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:17:00.995 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:17:00.995 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:17:01.232 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-25 17:17:01.232 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0
+2025-08-25 17:17:12.256 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:17:12.256 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:17:14.315 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:17:14.315 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:17:14.316 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:17:14.316 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:17:22.836 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-010-R014В-2-0366
+2025-08-25 17:17:22.836 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-010-R014В-2-0366
+2025-08-25 17:17:22.838 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-010-R014В-2-0366 -> 25-010-R014В-2-0366.pdf
+2025-08-25 17:17:22.838 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-010-R014В-2-0366 -> 25-010-R014В-2-0366.pdf
+2025-08-25 17:17:31.807 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:17:31.807 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:17:32.067 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:17:32.067 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:17:48.353 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:17:48.353 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:17:48.641 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-25 17:17:48.641 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0
+2025-08-25 17:18:00.995 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:18:00.995 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:18:02.876 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:18:02.876 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:18:02.877 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:18:02.877 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:18:11.718 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-25 17:18:11.718 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-290-61260-2-0063
+2025-08-25 17:18:11.721 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-25 17:18:11.721 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-290-61260-2-0063 -> 25-290-61260-2-0063.pdf
+2025-08-25 17:18:19.932 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:18:19.932 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:18:20.235 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:18:20.235 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:18:37.799 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:18:37.799 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:18:38.276 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-25 17:18:38.276 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0
+2025-08-25 17:18:58.876 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:18:58.876 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:19:00.568 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:19:00.568 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:19:00.569 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:19:00.569 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:19:08.526 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-25 17:19:08.526 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-012-06320-2-0025
+2025-08-25 17:19:08.529 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-25 17:19:08.529 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-012-06320-2-0025 -> 25-012-06320-2-0025.pdf
+2025-08-25 17:19:18.028 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:19:18.028 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:19:18.333 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:19:18.333 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:19:33.710 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:19:33.710 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:19:34.024 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-25 17:19:34.024 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0
+2025-08-25 17:19:45.916 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:19:45.916 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:19:47.654 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:19:47.654 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:19:47.654 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:19:47.654 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:19:53.905 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-25 17:19:53.905 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-046-61806-2-0090
+2025-08-25 17:19:53.908 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-25 17:19:53.908 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-046-61806-2-0090 -> 25-046-61806-2-0090.pdf
+2025-08-25 17:20:02.308 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:20:02.308 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:20:02.871 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:20:02.871 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:20:22.721 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:20:22.721 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:20:22.981 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-25 17:20:22.981 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0
+2025-08-25 17:20:33.428 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:20:33.428 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:20:35.753 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:20:35.753 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:20:35.753 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:20:35.753 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:20:45.100 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-25 17:20:45.100 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-075-21030-1-0262
+2025-08-25 17:20:45.103 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-25 17:20:45.103 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-075-21030-1-0262 -> 25-075-21030-1-0262.pdf
+2025-08-25 17:20:52.840 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:20:52.840 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:20:53.146 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:20:53.146 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:21:08.297 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:21:08.297 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:21:08.611 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-25 17:21:08.611 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0
+2025-08-25 17:21:19.689 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:21:19.689 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:21:21.919 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:21:21.919 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:21:21.920 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:21:21.920 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:21:30.520 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-25 17:21:30.520 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-807-70410-2-0234
+2025-08-25 17:21:30.522 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-25 17:21:30.522 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-807-70410-2-0234 -> 25-807-70410-2-0234.pdf
+2025-08-25 17:21:36.352 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:21:36.352 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:21:36.655 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:21:36.655 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:21:52.672 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:21:52.672 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:21:52.970 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-25 17:21:52.970 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0
+2025-08-25 17:22:07.927 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:22:07.927 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:22:10.235 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:22:10.235 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:22:10.235 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:22:10.235 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:22:19.991 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-010-52920-2-0345
+2025-08-25 17:22:19.991 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-010-52920-2-0345
+2025-08-25 17:22:19.994 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-010-52920-2-0345 -> 25-010-52920-2-0345.pdf
+2025-08-25 17:22:19.994 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-010-52920-2-0345 -> 25-010-52920-2-0345.pdf
+2025-08-25 17:22:25.601 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:22:25.601 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:22:26.054 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:22:26.054 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:22:38.864 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:22:38.864 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:22:39.030 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/1ad2656e-a72e-4b28-bce3-86a9b0cc4f52?showBackButton=true&competitionType=0
+2025-08-25 17:22:39.030 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/1ad2656e-a72e-4b28-bce3-86a9b0cc4f52?showBackButton=true&competitionType=0
+2025-08-25 17:22:52.148 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:22:52.148 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:22:53.691 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:22:53.691 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:22:53.692 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:22:53.692 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:23:02.152 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-902-60917-2-0645
+2025-08-25 17:23:02.152 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-902-60917-2-0645
+2025-08-25 17:23:02.155 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-902-60917-2-0645 -> 25-902-60917-2-0645.pdf
+2025-08-25 17:23:02.155 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-902-60917-2-0645 -> 25-902-60917-2-0645.pdf
+2025-08-25 17:23:09.449 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:23:09.449 | INFO     | download.test:run:160 - открыли https://promote.budget.gov.ru/
+2025-08-25 17:23:09.736 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:23:09.736 | INFO     | download.test:insert:52 - шифр вставили
+2025-08-25 17:23:25.333 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:23:25.333 | INFO     | download.test:get_href:81 - ссылка успешно получена
+2025-08-25 17:23:25.638 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/fd913114-593d-41ad-9549-34508802bef6?showBackButton=true&competitionType=0
+2025-08-25 17:23:25.638 | INFO     | download.test:run:179 - https://promote.budget.gov.ru/public/minfin/selection/view/fd913114-593d-41ad-9549-34508802bef6?showBackButton=true&competitionType=0
+2025-08-25 17:23:39.769 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:23:39.769 | INFO     | download.test:run:186 - Подробнее кликнули
+2025-08-25 17:23:41.393 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:23:41.393 | INFO     | download.test:get_treb:94 - нажали на объявления и протоколы
+2025-08-25 17:23:41.394 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:23:41.394 | INFO     | download.test:run:192 - нажали на документы
+2025-08-25 17:23:50.132 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-004-15270-2-0075
+2025-08-25 17:23:50.132 | INFO     | download.test:downl:123 - Файл успешно скачан: 25-004-15270-2-0075
+2025-08-25 17:23:50.134 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-004-15270-2-0075 -> 25-004-15270-2-0075.pdf
+2025-08-25 17:23:50.134 | INFO     | download.test:move_all_pdfs:139 - Перемещён: 25-004-15270-2-0075 -> 25-004-15270-2-0075.pdf
+2025-08-25 17:24:03.763 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-013-00006-2-0183: https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.763 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-013-00006-2-0183: https://promote.budget.gov.ru/public/minfin/selection/view/0a97290a-b487-41f6-8005-e40a596e758e?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.764 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-010-R014В-2-0366: https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.764 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-010-R014В-2-0366: https://promote.budget.gov.ru/public/minfin/selection/view/18c94420-f7eb-4218-93a8-2d24bfb477d0?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.764 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-290-61260-2-0063: https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.764 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-290-61260-2-0063: https://promote.budget.gov.ru/public/minfin/selection/view/5173e0d4-b8c1-4544-9f5d-5378fa70f50c?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.764 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-012-06320-2-0025: https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.764 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-012-06320-2-0025: https://promote.budget.gov.ru/public/minfin/selection/view/b0f4ef1a-4f5a-41be-a216-f436acba2aa4?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.765 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-046-61806-2-0090: https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.765 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-046-61806-2-0090: https://promote.budget.gov.ru/public/minfin/selection/view/22c01e68-5ac1-4328-989d-72a98c4987a2?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.765 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-075-21030-1-0262: https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.765 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-075-21030-1-0262: https://promote.budget.gov.ru/public/minfin/selection/view/54c7ba36-a68b-42e4-9651-f54d759a1ea1?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.766 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-807-70410-2-0234: https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.766 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-807-70410-2-0234: https://promote.budget.gov.ru/public/minfin/selection/view/41b27178-6243-4fa5-b1ec-b1c7da84a08c?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.766 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-010-52920-2-0345: https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.766 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-010-52920-2-0345: https://promote.budget.gov.ru/public/minfin/selection/view/5a8b482c-33fd-4eb6-9d5a-934e101bf952?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.766 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-902-60917-2-0645: https://promote.budget.gov.ru/public/minfin/selection/view/1ad2656e-a72e-4b28-bce3-86a9b0cc4f52?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.766 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-902-60917-2-0645: https://promote.budget.gov.ru/public/minfin/selection/view/1ad2656e-a72e-4b28-bce3-86a9b0cc4f52?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.767 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-004-15270-2-0075: https://promote.budget.gov.ru/public/minfin/selection/view/fd913114-593d-41ad-9549-34508802bef6?showBackButton=true&competitionType=0&tab=1
+2025-08-25 17:24:03.767 | INFO     | parser_pdf.parser_main:add_links_to_dataframe:33 - Добавлена ссылка для шифра 25-004-15270-2-0075: https://promote.budget.gov.ru/public/minfin/selection/view/fd913114-593d-41ad-9549-34508802bef6?showBackButton=true&competitionType=0&tab=1

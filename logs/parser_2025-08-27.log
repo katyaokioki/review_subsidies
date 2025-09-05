@@ -1,0 +1,25 @@
+2025-08-27 16:23:29.934 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:23:40.537 | ERROR    | __main__:click_element:74 - Клик через JS тоже не удался: div.mrx-icon icon-table-view icon-font-32.ng-tns-c270004569-6
+2025-08-27 16:26:21.061 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:26:31.169 | ERROR    | __main__:click_element:74 - Клик через JS тоже не удался: div.mrx-icon.icon-table-view.icon-font-32.ng-tns-c270004569-6
+2025-08-27 16:27:22.094 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:27:32.589 | ERROR    | __main__:click_element:74 - Клик через JS тоже не удался: div.mrx-icon.icon-table-view.icon-font-32.ng-tns-c270004569-6
+2025-08-27 16:32:53.931 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:33:44.449 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:37:51.412 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:39:59.460 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:43:09.218 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:44:05.384 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:45:53.369 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:46:23.780 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:50:17.069 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:52:14.224 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:53:39.876 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:53:54.090 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-27 16:54:17.670 | INFO     | __main__:run:178 - нажали на кнопку
+2025-08-27 16:54:53.868 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:55:08.061 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-27 16:55:38.953 | INFO     | __main__:run:178 - нажали на кнопку
+2025-08-27 16:58:34.226 | INFO     | __main__:run:158 - открыли https://promote.budget.gov.ru/public/minfin/activity
+2025-08-27 16:58:46.990 | INFO     | __main__:run:168 - нажали на кнопку
+2025-08-27 16:59:17.610 | INFO     | __main__:run:178 - нажали на кнопку

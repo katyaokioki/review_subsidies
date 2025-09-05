@@ -1,0 +1,6 @@
+FROM python:3.11-slim
+WORKDIR /app
+COPY to_db/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY ["./to_db/excel.py", "./to_db/to_db.py", "./"]
+CMD ["python", "excel.py"]

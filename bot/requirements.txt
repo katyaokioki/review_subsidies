@@ -1,0 +1,16 @@
+python-telegram-bot
+
+pandas
+
+SQLAlchemy
+
+psycopg2-binary
+
+pika
+
+openpyxl
+
+xlrd
+
+python-dotenv
+psycopg

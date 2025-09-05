@@ -1,0 +1,6 @@
+requests
+pandas
+loguru
+pika
+selenium
+openpyxl
