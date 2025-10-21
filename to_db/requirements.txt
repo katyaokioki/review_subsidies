@@ -6,3 +6,4 @@ sqlalchemy
 pika
 dataclasses
 typing
+loguru

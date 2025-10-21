@@ -1,0 +1,15 @@
+pdfplumber
+pandas
+pathlib
+loguru 
+pika
+openpyxl
+PyMuPDF
+
+SQLAlchemy
+psycopg2-binary
+
+sqlalchemy
+
+dataclasses
+typing

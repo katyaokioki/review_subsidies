@@ -2,3 +2,7 @@ pandas
 pika
 openpyxl
 psycopg2
+sqlalchemy
+dataclasses
+typing
+loguru

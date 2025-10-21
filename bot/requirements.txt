@@ -14,3 +14,8 @@ xlrd
 
 python-dotenv
 psycopg
+loguru
+
+
+aio_pika
+aiogram

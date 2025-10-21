@@ -4,35 +4,65 @@ import re
 import os
 from pathlib import Path
 from loguru import logger
+import pika
+from itertools import groupby
+from operator import itemgetter
+import pymupdf
+from sqlalchemy import create_engine, MetaData, Table, Column, Text, inspect, text
 
-# def add_links_to_dataframe(df, links_dict, id_column='Шифр отбора', link_column='ссылка'):
-#     """
-#     Добавляет ссылки из словаря в DataFrame
+
+class Updated:
+    def __init__(self):
+        self.conn_str = "postgresql+psycopg2://postgres:1234@db:5432/subsidies"
+        self.schema = "public"
+        self.table = "main_table"
+
+    def upsert(self, description: str, requirements: str, code: str):
+        engine = create_engine(self.conn_str, future=True)
+        sql = text("""
+            UPDATE public.main_table
+            SET description = :description,
+                requirements = :requirements
+            WHERE code = :code
+        """)
+        params = {
+            "description": description,
+            "requirements": requirements,
+            "code": code,
+        }
+        with engine.begin() as conn:
+            res = conn.execute(sql, params)
+            logger.info("updated:", res.rowcount)
+
+
+def add_links_to_dataframe(df, links_dict, id_column='Шифр отбора', link_column='ссылка'):
+    """
+    Добавляет ссылки из словаря в DataFrame
     
-#     Args:
-#         df: DataFrame с данными
-#         links_dict: словарь {шифр: ссылка}
-#         id_column: название столбца с шифрами
-#         link_column: название столбца для ссылок
+    Args:
+        df: DataFrame с данными
+        links_dict: словарь {шифр: ссылка}
+        id_column: название столбца с шифрами
+        link_column: название столбца для ссылок
     
-#     Returns:
-#         DataFrame с добавленными ссылками
-#     """
-#     # Создаем копию DataFrame
-#     result_df = df.copy()
+    Returns:
+        DataFrame с добавленными ссылками
+    """
+    # Создаем копию DataFrame
+    result_df = df.copy()
     
-#     # Добавляем столбец для ссылок, если его нет
-#     if link_column not in result_df.columns:
-#         result_df[link_column] = ""
+    # Добавляем столбец для ссылок, если его нет
+    if link_column not in result_df.columns:
+        result_df[link_column] = ""
     
-#     # Добавляем ссылки из словаря
-#     for index, row in result_df.iterrows():
-#         current_id = str(row[id_column]).strip()
-#         if current_id in links_dict:
-#             result_df.at[index, link_column] = links_dict[current_id]
-#             logger.info(f"Добавлена ссылка для шифра {current_id}: {links_dict[current_id]}")
+    # Добавляем ссылки из словаря
+    for index, row in result_df.iterrows():
+        current_id = str(row[id_column]).strip()
+        if current_id in links_dict:
+            result_df.at[index, link_column] = links_dict[current_id]
+            logger.info(f"Добавлена ссылка для шифра {current_id}: {links_dict[current_id]}")
     
-#     return result_df
+    return result_df
 
 def parse_pdf_requirements(pdf_path):
     """
@@ -136,70 +166,189 @@ def split_requirements_by_sentences(text):
     
     return filtered_sentences
 
-def get_pdf_files(subsidies_path='subsidies'):
-    """
-    Получает список всех PDF файлов в папке subsidies
-    """
-    pdf_files = []
-    subsidies_dir = Path(subsidies_path)
-    
-    if subsidies_dir.exists():
-        for file in subsidies_dir.iterdir():
-            if file.is_file() and file.suffix.lower() == '.pdf':
-                pdf_files.append(str(file))
-    
-    return pdf_files
 
-def parser_main(a):
-    df = pd.read_excel("Реестр отборов.xlsx", sheet_name='2025 - 2027')
 
+def parse_pdf_description(pdf_path):
+    start_marker = "полное описание отбора"
+
+    # 1) Считываем текст всего документа
+    doc = pymupdf.open(pdf_path)  # PyMuPDF
+    full_text = []
+    for page in doc:
+        full_text.append(page.get_text("text"))  # плоский текст в естественном порядке
+    text = "\n".join(full_text)
+
+    # 2) Находим позицию старта: сразу после маркера
+    start_pos = text.lower().find(start_marker.lower())
+    if start_pos == -1:
+        raise ValueError(f"Не найдено начало по маркеру: {start_marker!r}")
+
+    start_pos = start_pos + len(start_marker)
+
+    # 3) Обрезаем текст от старта и ищем первую строку вида "число.текст"
+    #   - ^\d+\..*$  — строка начинается с одного или более цифр, затем точка, затем любой текст
+    #   - re.MULTILINE  — ^ и $ работают построчно
+    #   - re.DOTALL     — на случай, если потребуется матчить через переводы строк (для поиска конца используем только MULTILINE)
+    tail = text[start_pos:]
+
+    pattern = re.compile(r"^\d+\..*$", flags=re.MULTILINE)
+    m = pattern.search(tail)
+    if not m:
+        # Если такого заголовка нет — забираем всё до конца
+        extracted = tail.strip()
+    else:
+        end_pos = m.start()
+        extracted = tail[:end_pos].strip()
+    extracted = " ".join(extracted.split())
+    return extracted
+ 
+def get_pdf_files(code: str) -> Path | None:
+    """
+    Возвращает путь к файлу /app/subsidies/<code>.pdf, если он существует.
+    Иначе возвращает None.
+    """
+    SUBSIDIES_DIR = '/app/subsidies'
+    path = Path(SUBSIDIES_DIR) / f"{code}.pdf"
+    return path if path.is_file() else None
+
+def parser_main(code):
+    df = pd.read_excel("/app/downloads/Реестр отборов.xlsx") 
+    
     
     # Добавляем столбец requirements, если его нет
     if 'requirements' not in df.columns:
         df['requirements'] = ""
         print("✅ Добавлен столбец requirements")
+
+    if 'description' not in df.columns:
+        df['description'] = ""
+        print("✅ Добавлен столбец requirements")
     
     # Получаем список всех PDF файлов
-    pdf_files = get_pdf_files()
+    pdf_path = get_pdf_files(code)
     
-    if not pdf_files:
+    if not pdf_path:
         print("В папке subsidies нет PDF файлов")
         return
     
-    print(f"Найдено PDF файлов: {len(pdf_files)}")
+    print(f"Найдено PDF файлов: {pdf_path}")
     
     # Обрабатываем каждый PDF файл
-    for pdf_path in pdf_files:
+    
         # Получаем имя файла без расширения
-        pdf_name = Path(pdf_path).stem  # убираем .pdf
-        print(f"Обрабатываем файл: {pdf_path}")
-        print(f"Ищем строку с шифром: {pdf_name}")
+    pdf_name = Path(pdf_path).stem  # убираем .pdf
+    print(f"Обрабатываем файл: {pdf_path}")
+    print(f"Ищем строку с шифром: {pdf_name}")
         
-        # Ищем строку с соответствующим шифром отбора
-        matching_rows = df[df['Шифр отбора'] == pdf_name]
+    # Ищем строку с соответствующим шифром отбора
+    matching_rows = df[df['Шифр отбора'] == code]
         
-        if matching_rows.empty:
-            print(f"⚠️  Не найдена строка с шифром отбора: {pdf_name}")
-            continue
+    if matching_rows.empty:
+        print(f"⚠️  Не найдена строка с шифром отбора: {pdf_name}")
         
-        print(f"✅ Найдена строка для шифра: {pdf_name}")
+        
+    print(f"✅ Найдена строка для шифра: {pdf_name}")
         
         # Извлекаем требования из PDF
-        requirements = parse_pdf_requirements(pdf_path)
+    requirements = parse_pdf_requirements(pdf_path)
+    description = parse_pdf_description(pdf_path)
+    print(description)
         
-        # Находим индекс строки с соответствующим шифром
-        row_index = df[df['Шифр отбора'] == pdf_name].index[0]
+    # Находим индекс строки с соответствующим шифром
+    row_index = df[df['Шифр отбора'] == code].index[0]
         
-        # Получаем структурированные требования
-        if len(requirements) > 0:
-            structured_requirements = split_requirements_by_sentences(requirements[0])
-            print(f"Структурировано требований: {len(structured_requirements)}")
+    # # Получаем структурированные требования
+    if len(requirements) > 0:
+    #     structured_requirements = split_requirements_by_sentences(requirements[0])
+    #     print(f"Структурировано требований: {len(structured_requirements)}")
             
-            # Записываем требования в соответствующую строку
-            df.at[row_index, 'requirements'] = "\n".join(structured_requirements)
-            print(f"✅ Требования записаны в строку с шифром: {pdf_name}")
-        else:
-            print(f"⚠️  Требования не найдены в файле: {pdf_path}")
-    df = add_links_to_dataframe(df, a)
-    df.to_excel('db.xlsx', index=False)
-    print("✅ Результат сохранен в db.xlsx")
+        # Записываем требования в соответствующую строку
+    #     df.at[row_index, 'requirements'] = requirements
+    #     print(f"✅ Требования записаны в строку с шифром: {pdf_name}")
+    # else:
+    #     print(f"⚠️  Требования не найдены в файле: {pdf_path}")
+    # if len(description) > 0:
+        
+    #     # Записываем требования в соответствующую строку
+    #     df.at[row_index, 'description'] = description
+    #     print(f"✅ описание записаны в строку с шифром: {pdf_name}")
+    # else:
+    #     print(f"⚠️  описание не найдено в файле: {pdf_path}")
+        try:
+            up = Updated()
+            up.upsert(description, requirements, code)
+            logger.info('успешная вставка')
+        except:
+            logger.info('не получилось description and requirements вставить')
+        
+
+    
+
+
+
+class RequirementsConsumer:
+    def __init__(self, amqp_url: str = None):
+        self.amqp_url = amqp_url or os.getenv("RABBITMQ_URL", "amqp://guest:guest@rabbitmq:5672/")
+        logger.info(f"Connecting to RabbitMQ: {self.amqp_url}")
+        try:
+            params = pika.URLParameters(self.amqp_url)
+            self.connection = pika.BlockingConnection(params)
+            self.channel = self.connection.channel()
+            logger.info("RabbitMQ connection established")
+        except Exception as e:
+            logger.exception(f"RabbitMQ connection failed: {e}")
+            raise
+
+        # Очередь
+        self.channel.queue_declare(queue='parser_pdf', durable=True)
+        self.channel.queue_declare(queue='send_email', durable=True)
+        logger.info("Declared queue 'parser_pdf'")
+        # QoS
+        self.channel.basic_qos(prefetch_count=1)
+        logger.info("Set basic_qos prefetch_count=1")
+
+
+    def _on_message(self, ch, method, properties, body: bytes):
+        code = body.decode(errors="ignore").strip()
+        req_log = logger.bind(code=code, stage="consume")
+        req_log.info("Received message")
+        try:
+            if not code:
+                req_log.warning("Empty code received, ack and skip")
+                return
+            parser_main(code)
+            req_log.info("Processed successfully")
+            ch.basic_publish(
+                exchange='',
+                routing_key='send_email',
+                body=code.encode(),
+                properties=pika.BasicProperties(
+                    delivery_mode=pika.DeliveryMode.Persistent  # сохранить на диск
+                )
+            )
+        except Exception as e:
+            req_log.exception(f"Processing failed: {e}")
+        finally:
+            ch.basic_ack(delivery_tag=method.delivery_tag)
+            req_log.debug("Ack sent to broker")
+
+    def start(self):
+        logger.info("Start consuming from 'parser_pdf'")
+        self.channel.basic_consume(queue='parser_pdf', on_message_callback=self._on_message, auto_ack=False)
+        try:
+            self.channel.start_consuming()
+        except KeyboardInterrupt:
+            logger.warning("Interrupted by user")
+            self.channel.stop_consuming()
+        except Exception as e:
+            logger.exception(f"Consuming error: {e}")
+            raise
+        finally:
+            try:
+                self.connection.close()
+                logger.info("RabbitMQ connection closed")
+            except Exception as e:
+                logger.warning(f"Connection close failed: {e}")
+
+if __name__ == "__main__":
+    RequirementsConsumer().start()

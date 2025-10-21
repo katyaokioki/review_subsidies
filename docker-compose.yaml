@@ -40,9 +40,10 @@ services:
       dockerfile: bot/Dockerfile.bot
     container_name: telegram-bot
     environment:
-      - PYTHONUNBUFFERED=1
-      - SELENIUM_URL=http://chrome:4444/wd/hub    # пример переменной окружения для доступа к браузеру
-      - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672/
+    - PYTHONUNBUFFERED=1
+    - SELENIUM_URL=http://chrome:4444/wd/hub
+    - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672/
+    - DATABASE_URL=postgresql+psycopg2://postgres:1234@db:5432/subsidies
     depends_on:
       rabbitmq:
         condition: service_healthy
@@ -51,23 +52,54 @@ services:
       
     volumes:
       - ./downloads:/app/downloads
+      - pgdata:/var/lib/postgresql/data
+      - pgdata:/var/lib/postgresql/data
     networks:
       - backend
     restart: unless-stopped
 
-  reading_excel:
+
+  bot_subs:
     build:
       context: .
-      dockerfile: reading_excel/Dockerfile.reading_excel
-    container_name: reading_excel
+      dockerfile: bot_subs/Dockerfile.bot
+    container_name: telegram-bot-subs
+    environment:
+    - PYTHONUNBUFFERED=1
+    - SELENIUM_URL=http://chrome:4444/wd/hub
+    - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672/
+    - DATABASE_URL=postgresql+psycopg2://postgres:1234@db:5432/subsidies
     depends_on:
       rabbitmq:
         condition: service_healthy
+      chrome:
+        condition: service_healthy
+      
     volumes:
       - ./downloads:/app/downloads
+      - pgdata:/var/lib/postgresql/data
+      - pgdata:/var/lib/postgresql/data
     networks:
       - backend
     restart: unless-stopped
+
+
+
+
+  # reading_excel:
+  #   build:
+  #     context: .
+  #     dockerfile: reading_excel/Dockerfile.reading_excel
+  #   container_name: reading_excel
+  #   depends_on:
+  #     rabbitmq:
+  #       condition: service_healthy
+  #   volumes:
+  #     - ./downloads:/app/downloads
+  #     - ./to_db:/app/to_db
+  #   networks:
+  #     - backend
+  #   restart: unless-stopped
 
   downloader:
     build:
@@ -76,12 +108,17 @@ services:
     container_name: downloader
     environment:
       - SELENIUM_URL=http://selenium-chrome:4444/wd/hub
-      - RABBITMQ_URL=amqp://guest:guest@rabbitmq-container:5672/
+      - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672/
+    
     depends_on:
       rabbitmq:
         condition: service_healthy
       chrome:
         condition: service_healthy
+    volumes:
+      - ./subsidies:/app/subsidies
+      - ./downloads:/app/downloads
+      
     networks:
       - backend
     restart: unless-stopped
@@ -101,8 +138,9 @@ services:
       retries: 12
     networks:
       - backend
-    # volumes:
-    #   - pgdata:/var/lib/postgresql/data
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - pgdata:/var/lib/postgresql/data
 
   to_db:
     build:
@@ -115,9 +153,32 @@ services:
       DATABASE_URL: postgresql+psycopg2://postgres:1234@db:5432/subsidies
     volumes:
       - ./downloads:/app/downloads
+      - ./logs:/app/logs
     networks:
       - backend
     restart: "no"
+
+  parser_pdf:
+    build:
+      context: ./parser_pdf
+      dockerfile: Dockerfile.parser_pdf
+    container_name: parser_pdf
+    environment:
+      - SELENIUM_URL=http://selenium-chrome:4444/wd/hub
+      - RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672/
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      
+     
+    volumes:
+      - ./subsidies:/app/subsidies
+      - ./downloads:/app/downloads
+      - ./to_db:/app/to_db/to_db.py
+    networks:
+      - backend
+    restart: unless-stopped
+ 
 
 networks:
   backend:

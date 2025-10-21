@@ -27,11 +27,12 @@ class BudgetDocDownloader:
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:79.0) Gecko/20100101 Firefox/79.0'
 ]
     
-    def __init__(self, code, download_folder="./subsidies"):
+    def __init__(self, code, download_folder="/app/subsidies"):
         self.code = code
-        self.download_folder = os.path.abspath(download_folder)
+        self.download_folder = download_folder
         self.shifr = {}
-    
+        self.href = None
+        os.makedirs(self.download_folder, exist_ok=True)  # создадим /app/subsidies, если нет [2][5]
     def get_random_user_agent(self):
         return random.choice(self.USER_AGENTS)
 
@@ -104,13 +105,44 @@ class BudgetDocDownloader:
         except Exception as e:
             logger.error(f"Ошибка при получении ссылки по селектору {selector}: {e}")
             return None
+    # def get_announcements_container_class(url: str, timeout: int = 20):
+    #     # Запускаем Chrome (можно заменить на Remote/WebDriverManager по окружению)
+    #     options = webdriver.ChromeOptions()
+    #     options.add_argument("--headless=new")
+    #     options.add_argument("--no-sandbox")
+    #     options.add_argument("--disable-dev-shm-usage")
+    #     driver = webdriver.Chrome(options=options)
+
+    #     try:
+    #         driver.get(url)
+
+    #         # Находим сам <span> с нужным текстом
+    #         span_xpath = "//span[normalize-space()='Объявления и протоколы']"
+    #         wait = WebDriverWait(driver, timeout)
+    #         span_el = wait.until(EC.presence_of_element_located((By.XPATH, span_xpath)))  # ждём появления [2]
+
+    #         # Берем самый близкий div-родитель (не любой предок, а ближайший)
+    #         # parent::div — это прямой родитель; если он не div, берём ближайший div-предок через ancestor::div[15]
+    #         parent_div = None
+    #         try:
+    #             parent_div = span_el.find_element(By.XPATH, "parent::div")  # ближайший родитель, если это div [1]
+    #         except Exception:
+    #             parent_div = span_el.find_element(By.XPATH, "ancestor::div[15]")  # ближайший div‑предок [10][5]
+
+    #         container_class = parent_div.get_attribute("class") or ""
+    #         container_html = parent_div.get_attribute("outerHTML")  # для отладки структуры [1]
+
+    #         return {"class": container_class.strip(), "html": container_html}
+    #     except:
+    #         logger.info(f'не получилось получить ссылку {url}')
+
 
     def get_treb(self, driver, wait):
         try:
             WebDriverWait(driver, 10).until(
-                EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.minfin-accordion__head.ng-tns-c2067363559-1"))
+                EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.minfin-accordion__head.ng-tns-c1128774175-1"))
             )
-            elements = driver.find_elements(By.CSS_SELECTOR, "div.minfin-accordion__head.ng-tns-c2067363559-1")
+            elements = driver.find_elements(By.CSS_SELECTOR, "div.minfin-accordion__head.ng-tns-c1128774175-1")
             for element in elements:
                 if 'Объявления и протоколы' in element.text:
                     element.click()
@@ -151,20 +183,57 @@ class BudgetDocDownloader:
             logger.error(f"Ошибка при скачивании файла {url}: {e}")
             return False
 
-    def move_all_pdfs(self, source_dir, filename):
+        # try:
+        #     os.makedirs(os.path.dirname(filepath), exist_ok=True)  # на случай вложенных путей [2]
+        #     with requests.get(url, stream=True, headers=headers,timeout=60) as response:
+        #         response.raise_for_status()
+        #         with open(filepath, 'wb') as f:
+        #             for chunk in response.iter_content(chunk_size=8192):
+        #                 if chunk:
+        #                     f.write(chunk)
+        #     logger.info(f"Файл успешно скачан: {filepath}")
+        #     return filepath
+        # except Exception as e:
+        #     logger.error(f"Ошибка при скачивании файла {url} -> {filepath}: {e}")
+        #     return False
+
+    # def move_all_pdfs(self, source_dir, filename):
+    #     try:
+    #         os.makedirs(self.download_folder, exist_ok=True)
+    #         for name in os.listdir(source_dir):
+    #             if name.lower() == filename.lower():
+    #                 src_path = os.path.join(source_dir, name)
+    #                 base, ext = os.path.splitext(name)
+    #                 new_name = base + '.pdf' if ext.lower() != '.pdf' else name
+    #                 dst_path = os.path.join(self.download_folder, new_name)
+    #                 if os.path.isfile(src_path):
+    #                     shutil.move(src_path, dst_path)
+    #                     logger.info(f"Перемещён файл: {name} -> {new_name}")
+    #     except Exception as e:
+    #         logger.error(f"Ошибка при перемещении файлов: {e}")
+    def move_all_pdfs(self, filename):
         try:
-            os.makedirs(self.download_folder, exist_ok=True)
-            for name in os.listdir(source_dir):
-                if name.lower() == filename.lower():
-                    src_path = os.path.join(source_dir, name)
-                    base, ext = os.path.splitext(name)
-                    new_name = base + '.pdf' if ext.lower() != '.pdf' else name
-                    dst_path = os.path.join(self.download_folder, new_name)
-                    if os.path.isfile(src_path):
-                        shutil.move(src_path, dst_path)
-                        logger.info(f"Перемещён файл: {name} -> {new_name}")
+            src_dir = os.getcwd()  # текущая рабочая директория процесса [6]
+            src_path = os.path.join(src_dir, filename)
+            if not os.path.isfile(src_path):
+                logger.error(f"Файл не найден: {src_path}")
+                return False
+
+            # Обеспечим наличие целевой директории
+            dst_dir = "/app/subsidies"
+            os.makedirs(dst_dir, exist_ok=True)  # безопасно многократно [18]
+
+            base, ext = os.path.splitext(filename)
+            new_name = base + ".pdf" if ext.lower() != ".pdf" else filename
+            dst_path = os.path.join(dst_dir, new_name)
+
+            shutil.move(src_path, dst_path)  # перемещаем/переименовываем [2][1]
+            logger.info(f"Перемещён файл: {src_path} -> {dst_path}")
+            return dst_path
         except Exception as e:
-            logger.error(f"Ошибка при перемещении файлов: {e}")
+            logger.error(f"Ошибка при перемещении файла {filename} в /app/subsidies: {e}")
+            self.safe_quit(driver)
+            return False
 
     def safe_quit(self, driver):
         try:
@@ -183,23 +252,40 @@ class BudgetDocDownloader:
             logger.info('Открыли https://promote.budget.gov.ru/')
         except Exception as e:
             logger.error(f"Не удалось открыть сайт: {e}")
+            self.safe_quit(driver)
             status = False
 
-        if status and self.insert(driver, wait, self.code):
-            if not self.click_element(wait, driver, 'button.mrx-btn.btn.icon-left.minfin-search__btn.mrx-btn-lg.mrx-btn-primary.ng-star-inserted'):
+        if status: 
+            try:
+                self.insert(driver, wait, self.code)
+            except:
+                logger.info(f"Текущий URL: {href}")
+                driver.back()
+                self.random_sleep(5,7)
+                try:
+                  self.insert(driver, wait, self.code)
+                except:
+                    self.safe_quit(driver)
+                    logger.info('driver.back не помог вставке')  
+            try:
+                self.click_element(wait, driver, 'button.mrx-btn.btn.icon-left.minfin-search__btn.mrx-btn-lg.mrx-btn-primary.ng-star-inserted')
+            except:
                 logger.error('Не удалось нажать кнопку поиска.')
                 status = False
-            href = driver.current_url
-            logger.info(f"Текущий URL: {href}")
+                href = driver.current_url
+                logger.info(f"Текущий URL: {href}")
+                self.safe_quit(driver)
             
         if status:
             current_url = driver.current_url
             logger.info(f"Текущий URL: {current_url}")
-            href = self.get_href(wait, "a.selection-head")
-            if not(href):
+            try:
+                href = self.get_href(wait, "a.selection-head")
+            except:
                 driver.back()
                 current_url = driver.current_url
                 logger.info(f"Текущий URL: {current_url}")
+                self.safe_quit(driver)
                 
 
 
@@ -216,23 +302,32 @@ class BudgetDocDownloader:
 
             if href:
                 try:
+                    self.href = href
                     driver.get(href)
                     logger.info(f"Перешли по ссылке: {href}")
                 except Exception as e:
                     logger.error(f"Ошибка при переходе по ссылке {href}: {e}")
                     status = False
+                    self.safe_quit(driver)
 
         self.random_sleep(7, 10)
-        if status and self.click_element(wait, driver, 'div.competition-head-more'):
+    
+        try:
+            self.click_element(wait, driver, 'div.competition-head-more')
             logger.info('Кликнули Подробнее')
             self.shifr[self.code] = driver.current_url
-
+        except:
+            logger.info('НЕ Кликнули Подробнее')
         self.random_sleep(5, 7)
         logger.debug(f"Текущий URL: {driver.current_url}")
-
-        if self.get_treb(driver, wait):
+        # selector = self.get_announcements_container_class(driver.current_url)
+        # logger.info(f'селектор {selector}')
+        try:
+            self.get_treb(driver, wait)
             logger.info('Нажали на документы')
             self.random_sleep(2, 4)
+        except:
+            logger.info('не нажали на документы')
 
         self.random_sleep(2, 5)
         if status:
@@ -244,28 +339,63 @@ class BudgetDocDownloader:
                     break
 
             if href and status:
-                filename = self.downl(href, self.code)
-                if filename:
-                    self.move_all_pdfs(os.path.expanduser('./'), filename)
-                else:
-                    logger.warning('Не удалось получить ссылку на документ')
+                try:
+                    filename = self.downl(href, self.code)
+                except:
+                    logger.info('не получили ссылку на документ')
+                    self.safe_quit(driver)
                     status = False
 
-        self.safe_quit(driver)
+                if filename:
+                    try:
+                        self.move_all_pdfs(filename)
+                        logger.warning('переместили')
+                    except:
+                       logger.warning('не удалось переместить в /app/subsidies') 
+                
+            # if href and status:
+            #     # сохраняем строго в /app/subsidies/<code>.pdf
+            #     target_path = os.path.join(self.download_folder, f"{self.code}.pdf")  # /app/subsidies/XXXX.pdf [22]
+            #     saved = self.downl(href, target_path, driver=driver)
+            #     if saved:
+            #         logger.warning('скачали')
+            #     else:
+            #         logger.warning('Не удалось получить ссылку на документ')
+            #         status = False
+        try:
+            self.safe_quit(driver)
+        except:
+            logger.info('уже закрыли')
         return self.shifr
 
 
+from pathlib import Path
+DOWNLOADS_DIR = Path("/app/downloads")  # совпадает с точкой монтирования из compose
+
 class Link_to_excel:
-    def __init__(self):
-        self.df = pd.read_excel('Реестр отборов.xlsx')
+    def __init__(self, excel_path: Path = DOWNLOADS_DIR / "Реестр отборов.xlsx"):
+        self.excel_path = Path(excel_path)
+        abs_path = self.excel_path.resolve()
+        logger.info(f"Открываем Excel по пути: {abs_path}")
+        if not self.excel_path.exists():
+            raise FileNotFoundError(f"Файл не найден: {abs_path}")
+        sheets = pd.read_excel(self.excel_path, sheet_name=None)
+        df_all = pd.concat(sheets.values(), ignore_index=True)
+        self.df = df_all
+        if 'ссылка' not in self.df.columns:
+            self.df['ссылка'] = pd.Series(dtype='string')  # или object
+        else:
+            self.df['ссылка'] = self.df['ссылка'].astype('string')  # или .astype('object') 
 
     def set_link(self, code, link):
         self.df.loc[self.df['Шифр отбора'] == code, 'ссылка'] = link
         logger.info(f"Установлена ссылка для кода {code}: {link}")
 
-    def save(self, filename='Реестр отборов.xlsx'):
-        self.df.to_excel(filename, index=False)
-        logger.info(f"Файл сохранён: {filename}")
+    def save(self, filename: Path = None):
+        target = Path(filename) if filename else self.excel_path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        self.df.to_excel(target, index=False, engine="openpyxl")
+        logger.info(f"Файл сохранён: {target.resolve()}")
 
 
 
@@ -282,18 +412,21 @@ class ReadingRabbitMQ:
         logger.info(f"Получено сообщение: {code}")
 
         try:
-            downloader = BudgetDocDownloader(code, './subsidies')
-            result = downloader.run()
+            downloader = BudgetDocDownloader(code, '/app/subsidies')
+            downloader.run()
+            link = downloader.href
             link_to_excel = Link_to_excel()
-            link_to_excel.set_link(code, result)
+            link_to_excel.set_link(code, link)
             link_to_excel.save()
-            logger.info(f"Обработан код: {code}, результат: {result}")
+            logger.info(f"Обработан код: {code}, результат: {link}")
             self.channel.basic_publish(exchange='', routing_key='parser_pdf', body=code)
         except Exception as e:
             logger.error(f"Ошибка при обработке кода {code}: {e}")
             self.channel.basic_publish(exchange='', routing_key='error_codes', body=code)
-        ch.basic_ack(delivery_tag=method.delivery_tag)
-
+            
+        
+        finally:
+            ch.basic_ack(delivery_tag=method.delivery_tag)
     def start_consuming(self):
         self.channel.basic_qos(prefetch_count=1)
         self.channel.basic_consume(queue='codes', on_message_callback=self.callback, auto_ack=False)

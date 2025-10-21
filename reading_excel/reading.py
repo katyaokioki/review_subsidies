@@ -3,19 +3,22 @@ import os
 import pandas as pd
 import pika
 import time
-import logging
+from loguru import logger
+from to_db.to_db import SampleRepository, Db, ExcelLoader
 
-# Настройка логирования
-logger = logging.getLogger("ReadingService")
-logger.setLevel(logging.INFO)
 
-# Форматирование логов
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
-# Вывод в консоль
-console_handler = logging.StreamHandler()
-console_handler.setFormatter(formatter)
-logger.addHandler(console_handler)
+# # Настройка логирования
+# logger = logging.getLogger("ReadingService")
+# logger.setLevel(logging.INFO)
+
+# # Форматирование логов
+# formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+# # Вывод в консоль
+# console_handler = logging.StreamHandler()
+# console_handler.setFormatter(formatter)
+# logger.addHandler(console_handler)
 
 # При желании можно добавить файл для логов
 # file_handler = logging.FileHandler('reading_service.log')
@@ -38,7 +41,7 @@ class ReadingService:
                     pika.ConnectionParameters('rabbitmq', heartbeat=60)
                 )
                 self.channel = self.connection.channel()
-                self.channel.queue_declare(queue='excel_status', durable=True)
+                self.channel.queue_declare(queue='queue_reading', durable=True)
                 self.channel.queue_declare(queue='codes', durable=True)
                 logger.info("Успешно подключились к RabbitMQ")
                 return
@@ -57,18 +60,46 @@ class ReadingService:
             return
 
         try:
-            df = pd.read_excel(file_path, sheet_name='2025 - 2027').head(10)
-            codes = df['Шифр отбора'].tolist()
-            for code in codes:
-                self.channel.basic_publish(exchange='', routing_key='codes', body=str(code))
-                logger.info(f"Отправлен код: {code}")
+            db = Db()
+            s = SampleRepository(db)
+            df_db = s.get_df()
+            logger.info(df_db)
+        except:
+            logger.info('не вышло считать базу данных')
+        try:
+            # excel = ExcelLoader('/app/downloads/Реестр отборов.xlsx')
+            # df_new = excel.load() 
+
+            # left = df_db[["code"]] if not df_db.empty else pd.DataFrame(columns=["code"])
+
+            # right = df_new[["code"]]
+
+            # diff = left.merge(right, how="outer", on="code", indicator=True)
+
+            # df = diff.query("_merge == 'right_only'")["code"].tolist() # сразу список, без df['code']
+
+
+
+            if len(df) == 0:
+                logger.info('нет новых субсидий')
+            else:
+                for code in df:
+                    sample_dict = df_new.loc[df_new["code"] == code].iloc.to_dict()
+                    s.upsert_many([sample_dict], batch_size=1)
+                    
+                    self.channel.basic_publish(exchange='', routing_key='codes', body=str(code))
+
+                    logger.info(f"Отправлен код: {code}")
+                self.channel.basic_publish(exchange='', routing_key='to_db', body=bool(True))
+                logger.info(f"Закончили обработку таблицы excel")
+
         except Exception as e:
             logger.error(f"Ошибка чтения Excel или отправки данных: {e}")
 
     def callback(self, ch, method, properties, body):
         try:
             message = json.loads(body.decode())
-            logger.info(f"Получено сообщение из excel_status: {message}")
+            logger.info(f"Получено сообщение из queue_reading: {message}")
 
             if message.get("status") == "downloaded" and "file_name" in message:
                 self.process_excel(message["file_name"])
@@ -84,8 +115,8 @@ class ReadingService:
         self.channel.basic_qos(prefetch_count=1)
         while True:
             try:
-                self.channel.basic_consume(queue='excel_status', on_message_callback=self.callback, auto_ack=False)
-                logger.info("Ожидание сообщений в очереди excel_status...")
+                self.channel.basic_consume(queue='queue_reading', on_message_callback=self.callback, auto_ack=False)
+                logger.info("Ожидание сообщений в очереди queue_reading...")
                 self.channel.start_consuming()
             except pika.exceptions.AMQPConnectionError as e:
                 logger.error(f"Обрыв соединения с RabbitMQ: {e}. Пытаюсь переподключиться...")
